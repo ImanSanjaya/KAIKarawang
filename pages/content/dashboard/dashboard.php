@@ -1,7 +1,7 @@
 <?php
 
   $ds = DIRECTORY_SEPARATOR;
-  $base_dir = realpath(dirname(__FILE__)  . $ds . '../../../') . $ds;
+  $base_dir = realpath(dirname(__FILE__)  . $ds . '..' . $ds . '..' . $ds . '..') . $ds;
   require_once("{$base_dir}pages{$ds}core{$ds}header.php");
 
 ?>
